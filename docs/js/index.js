@@ -24,7 +24,7 @@ var S = {
         if (i !== -1) {
             S.UI.simulate(decodeURI(action).substring(i + 3));
         } else {
-             S.UI.simulate('#circle|亲爱的|王红同学|现在是|北京时间|#time|我将用|我的方式|表达对|圣诞祝福|#countdown 5|MERRY Christmas!', 3000);
+             S.UI.simulate('#circle|你叫什么名字呀|how old are you?|现在是北京时间|#time', 3000)|^-^;
 
            // S.UI.simulate('#show', 3000);
         }
